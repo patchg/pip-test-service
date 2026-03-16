@@ -1,0 +1,12 @@
+source_paths:
+  - "docs/**"
+destination_path: "services/{repo_name}/"
+triggers:
+  branches:
+    - main
+  paths:
+    - "docs/**"
+metadata:
+  system: "pip-test"
+  team: "platform-team"
+  criticality: "low"
